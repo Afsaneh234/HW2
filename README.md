@@ -1,2 +1,2 @@
 # HW2
-My second assignment for PROG 209 with collaboration with Alexander Apolonio 
+My second assignment for PROG 209 collaboration with Alexander Apolonio 
