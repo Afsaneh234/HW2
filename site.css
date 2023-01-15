@@ -1,5 +1,15 @@
  body {
     margin: 50px;
     font-family: Helvetica, sans-serif;
-    font-size: 150%;
+    font-size: 100%;
 }
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 350%;
+    color: crimson;
+ }
+ #results {
+    font-family: Helvetica, sans-serif;
+    font-size: 200%;
+    color: navy;
+ }

@@ -1,8 +1,7 @@
-document.addEventListener("DOMContentLoaded", function (event) {
-
-    document.getElementById("button1").addEventListener("click", function () {
-
-        document.getElementById("textbox1").value = "success";
-    });
-});
-
+function avg()
+{
+    num1 = parseInt(document.getElementById('num1').value);
+    num2 = parseInt(document.getElementById('num2').value);
+    num3 = parseInt(document.getElementById('num3').value);
+    document.getElementById('results').innerHTML = (num1 + num2 + num3) / 3;
+}

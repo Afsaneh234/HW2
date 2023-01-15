@@ -7,15 +7,28 @@
 <link rel="stylesheet" type="text/css" href="site.css">
 </head>
 
-<body>
-<h2>starter project</h2>
+<h2>Get Average</h2>
 
-<button type="button" id="button1">Button</button>
-<div>
-    <br />
-    <input type="text" val="starting value" text="hello" id="textbox1" />
-    <br />
-</div>
+<body>
+
+<form>
+
+    <label for="1stnumber">1st Number:</label><br>    
+    <input type="text" id="num1" /><br><br>
+
+    <label for="2ndnumber">2nd Number:</label><br>    
+    <input type="text" id="num2" /><br><br>
+
+    <label for="3rdnumber">3rd Number</label><br>
+    <input type="text" id="num3" /><br><br>
+
+    <button type="button" onclick="avg()">Average</button>
+
+</form>
+
+<p>
+    <span id="results"></span>
+</p>
 
 <script src="main.js"></script>
 </body>
